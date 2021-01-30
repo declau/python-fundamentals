@@ -1,4 +1,4 @@
-# Função enumerate
+# Função enumerate, navegar na lista e ao mesmo tempo obter o indice de cada elemento
 
 lista = ["Bola", "Banana", "tenis"]
 
