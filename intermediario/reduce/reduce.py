@@ -10,4 +10,10 @@ def soma(x, y):
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 soma_total = reduce(soma, lista)  # soma todos os valores da lita
-print(soma_total)
+print(soma_total)  # => 55
+
+
+# Lambda
+
+total = reduce(lambda x, y: x + y, [0, 1, 2, 3, 4])
+print(total)  # => 10
